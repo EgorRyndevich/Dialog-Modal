@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+html {
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0; 
+    font-family: Roboto;
+}
+   
+.header {
+    display: flex;
+    justify-content: center;
+}
+.header__wrapper {
+    width: 1080px;
+    height: 665px;
+    background: url(../img/background.png);
+    background-color: #FF8577;
+    position: relative;
+    top: 30px;
+}
+
+.header__wrapper__title {
+    text-align: end;
+    position: relative;
+    top: 50px;
+    right: 50px;
+    font-size: 32px;
+    color: #ffff;
+}
+.head {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 70px;
+}
+
+.head__container {
+    width: 699px;
+    height: 305px;
+    background-color: #ffff; 
+    border-radius: 16px;
+    border-color: #FFFFFF;
+    box-shadow: 0.2em 0.2em 5px rgba(122,122,122,0.5);
+}
+
+.conainer__section__subject {
+    margin-left: 25px;
+    padding-top: 20px;
+    font-size: 24px;
+}
+
+.conainer__section__text {
+    margin-left: 25px;
+    padding-top: 30px;
+    font-size: 17px;
+}
+
+.conainer__section__p {
+    color: red;
+}
+
+.buttons {
+    font-style: inherit;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin-top: 60px;
+    font-size: 16px;
+}
+
+.buttons__button-canel {
+    width: 168px;
+    height: 56px;
+    background-color: #ffff;
+    border-radius: 6px;
+    border-color: #000;
+    border-width: 1.5px;
+    border-style: solid;
+}
+
+.buttons__button-hide_me {
+    width: 177px;
+    height: 56px;
+    background-color: #ffff;
+    border-radius: 6px;
+    border-color: #000;
+    border-width: 1.5px;
+    border-style: solid;
+}
+
+.buttons__button-yes {
+    width: 242px;
+    height: 56px;
+    background-color: #000;
+    color: #ffff;
+    border-radius: 6px;
+    border-color: #000;
+    border-width: 1.5px;
+    border-style: solid;
+}
+
+.footer {
+    display: flex;
+    position: relative;
+    top: 170px;
+    left: 40px;
+}
+
+.footer__bottom_button {
+    display: inline-block;
+    font-style: inherit;
+    width: 177px;
+    height: 56px;
+    font-size: 16px;
+    background-color: #FF8577;
+    border-radius: 6px;
+    border-color: #FFFFFF;
+    color: #FFFFFF;
+    border-width: 1.5px;
+    border-style: solid;
+}  
+
+.footer__arrow {
+    object-fit:contain;
+    margin-left: 20px;
+}
+
+.footer__excerpt {
+    font-size: 16px;
+    margin-left: 20px;
+    color: white;
+}
