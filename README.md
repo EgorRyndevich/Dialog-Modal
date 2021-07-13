@@ -1,8 +1,6 @@
 Dialog Modal
-## Тема: Создание Макета
-### Основные Задачи:
-- Сделать макет по примеру
-- Отсортировать селекторы классов CSS
-- Все класы оформить по стилю БЭМ
-
-Перед вами представлен стандарный макет состоящий из простых стилей и свойст.
+## Topic: Layout Creation
+### Main goals:
+- Make a layout by example
+- Sort CSS class selectors
+- Arrange all classes according to the BEM style
